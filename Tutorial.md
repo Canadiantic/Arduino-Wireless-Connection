@@ -5,16 +5,14 @@
 Wireless communications are awesome, they are universal but how they work is unknown to much of the population. This is unfortunate as you can create many fun and interesting DIY projects including drones, walkie talkies and much more. The fortunate thing is that you have stumbled onto the ultimate guide to learn how to rig your own Microcontroller to communicate wirelessly which hopefully give you the knowledge you need to create your own project
 
 ### Components: 
-2 arduinos (one for transmitting and one for receiving)
 
+* 2 arduinos (one for transmitting and one for receiving)
 ![Image Of Arduino R3](Images/unnamed.jpg)
 
-2 nRF24L01+ Wireless Modules (you can use other modules but you will have to figure out how to wire them yourself)
-
+* 2 nRF24L01+ Wireless Modules (you can use other modules but you will have to figure out how to wire them yourself)
 ![Image Of nRF24L01+ Wireless Module](Images/NRF24L01L-Long-Range-Wireless-Module-R2-1.1KM-PASMA-02.jpg)
 
-Male to Female Jump wires (you’ll need 10)
-
+* Male to Female Jump wires (you’ll need 10)
 ![Image Of Male to Felmale Jump wires](Images/c4128_large_jumper_wires_20cm_m-f_pack_10.jpg)
 
 
