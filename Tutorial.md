@@ -12,7 +12,7 @@ Wireless communications are awesome, they are universal but how they work is unk
 * 2 nRF24L01+ Wireless Modules (you can use other modules but you will have to figure out how to wire them yourself)
 ![Image Of nRF24L01+ Wireless Module](Images/NRF24L01L-Long-Range-Wireless-Module-R2-1.1KM-PASMA-02.jpg)
 
-* Male to Female Jump wires (you’ll need 10)
+* Male to Female Jump wires (you’ll need 14)
 ![Image Of Male to Felmale Jump wires](Images/c4128_large_jumper_wires_20cm_m-f_pack_10.jpg)
 
 
