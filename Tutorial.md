@@ -126,7 +126,7 @@ In essence, a packet of data containing the “Hello World” is sent through th
 
 ![Gif of data transmission](Images/nRF24L01-Transceiver-Working-Packet-Transmission.gif)
 
-If you want to learn more about how wireless communication works go → here (it's also where I found much of the code and diagrams)
+If you want to learn more about how wireless communication works(specifically the nRF24L01+) go → [here](https://lastminuteengineers.com/nrf24l01-arduino-wireless-communication/) (it's also where I found much of the code and diagrams)
 
 ### Conclusion:
 Congratulations if you made it this far I am going to assume that you have successfully created your own wireless communication. Now that you are equipped with this knowledge what will you do? Have fun and experiment a bit with you new communication and in no time you utilising it within your own projects. I’d recommend checking out this link where we teach you how to create your own RC car.
