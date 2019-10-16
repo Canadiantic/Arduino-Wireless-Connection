@@ -44,6 +44,7 @@ SPI: https://github.com/PaulStoffregen/SPI/blob/master/SPI.h
 RF24: https://github.com/nRF24/RF24
 
 Compile and upload this code to the transmitting arduino:
+```
 //Include Libraries
 #include <SPI.h>
 #include <nRF24L01.h>
@@ -73,9 +74,10 @@ void loop()
   
   delay(1000);
 }
-
+```
 
 Compile and upload this code for the transmitting arduino:
+```
 //Include Libraries
 #include <SPI.h>
 #include <nRF24L01.h>
@@ -111,6 +113,7 @@ void loop()
     Serial.println(text);
   }
 }
+```
 
 If everything is working as intended you should see “Hello World” appearing in your serial monitor but if not recheck the connections between the arduino and the wireless module.
 
