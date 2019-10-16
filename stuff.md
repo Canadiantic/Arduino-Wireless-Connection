@@ -7,15 +7,15 @@ Wireless communications are awesome, they are universal but how they work is unk
 ### Components: 
 2 arduinos (one for transmitting and one for receiving)
 
-![Image Of Arduino R3](unnamed.jpg)
+![Image Of Arduino R3](Images/unnamed.jpg)
 
 2 nRF24L01+ Wireless Modules (you can use other modules but you will have to figure out how to wire them yourself)
 
-![Image Of nRF24L01+ Wireless Module](NRF24L01L-Long-Range-Wireless-Module-R2-1.1KM-PASMA-02.jpg)
+![Image Of nRF24L01+ Wireless Module](Images/NRF24L01L-Long-Range-Wireless-Module-R2-1.1KM-PASMA-02.jpg)
 
 Male to Female Jump wires (you’ll need 10)
 
-![Image Of Male to Felmale Jump wires](c4128_large_jumper_wires_20cm_m-f_pack_10.jpg)
+![Image Of Male to Felmale Jump wires](Images/c4128_large_jumper_wires_20cm_m-f_pack_10.jpg)
 
 
 ### Step 1-Rigging the wireless module
@@ -24,12 +24,12 @@ First, we should wire the most critical component: the wireless module.
 
 The wireless module we will be using in this tutorial is the nRF24L01+.
 
-![diagram Of nRF24L01+](Pinout-nRF24L01-PA-LNA-External-Antenna-Wireless-Transceiver-Module.png)
+![diagram Of nRF24L01+](Images/Pinout-nRF24L01-PA-LNA-External-Antenna-Wireless-Transceiver-Module.png)
 
 
 Above illustrates the wiring of the nRF24L01+ Wireless Module which we will use for the communication between the arduino. The way we will implement this communication is by creating a transmitter(which will transmit information) and a receiver(which will receive information)
 
-![diagram Of nRF24L01+ wired to an Arduino](Arduino-Wiring-Fritzing-Connections-with-nRF24L01-PA-LNA-External-Antenna-Wireless-Module.png)
+![diagram Of nRF24L01+ wired to an Arduino](Images/Arduino-Wiring-Fritzing-Connections-with-nRF24L01-PA-LNA-External-Antenna-Wireless-Module.png)
 
 Now on one Arduino using male to female jumper wires implement the above diagram
 Repeat for the second Arduino
@@ -117,14 +117,14 @@ void loop()
 
 If everything is working as intended you should see “Hello World” appearing in your serial monitor but if not recheck the connections between the arduino and the wireless module.
 
-![Image Of Serial Monitor](nRF24L01-Transceiver-RF24-Library-Sketch-Output-on-Serial-Monitor.png)
+![Image Of Serial Monitor](Images/nRF24L01-Transceiver-RF24-Library-Sketch-Output-on-Serial-Monitor.png)
 
 If errors continue to persist there might be a hardware failure within the wireless module or arduino. Don’t hesitate to ask any questions so that we can help you troubleshoot your problem.
 
 ### How does this work:
 In essence, a packet of data containing the “Hello World” is sent through the transmitter creating radio waves which can then be interpreted by the receiver and turned back into electrical signals to be used within the program.
 
-![Gif of data transmission](nRF24L01-Transceiver-Working-Packet-Transmission.gif)
+![Gif of data transmission](Images/nRF24L01-Transceiver-Working-Packet-Transmission.gif)
 
 If you want to learn more about how wireless communication works go → here (it's also where I found much of the code and diagrams)
 
@@ -132,4 +132,4 @@ If you want to learn more about how wireless communication works go → here (it
 Congratulations if you made it this far I am going to assume that you have successfully created your own wireless communication. Now that you are equipped with this knowledge what will you do? Have fun and experiment a bit with you new communication and in no time you utilising it within your own projects. I’d recommend checking out this link where we teach you how to create your own RC car.
 
 
-![Image Of RC car](IMG_2206.JPG)
+![Image Of RC car](Images/IMG_2206.JPG)
