@@ -7,7 +7,7 @@ Wireless communications are awesome, they are universal but how they work is unk
 Components: 
 2 arduinos (one for transmitting and one for receiving)
 
-![Image Of Arduino R3](IMG_2206.JPG)
+![Image Of Arduino R3](unnamed.jpg)
 
 2 nRF24L01+ Wireless Modules (you can use other modules but you will have to figure out how to wire them yourself)
 
