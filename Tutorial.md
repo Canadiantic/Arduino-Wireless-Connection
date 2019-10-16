@@ -75,8 +75,9 @@ void loop()
   delay(1000);
 }
 ```
+[transmitter source code](Code/TransmitterCode.ino)
 
-Compile and upload this code for the transmitting arduino:
+Compile and upload this code for the recieving arduino:
 ```
 //Include Libraries
 #include <SPI.h>
@@ -114,6 +115,7 @@ void loop()
   }
 }
 ```
+[receiver source code](Code/ReceiverCode.ino)
 
 If everything is working as intended you should see “Hello World” appearing in your serial monitor but if not recheck the connections between the arduino and the wireless module.
 
